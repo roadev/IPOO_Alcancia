@@ -1,6 +1,6 @@
 /* Autor: Hecho por Juan David Roa Valencia
  * Fecha de creación: 02/09/14
- * Versión: 0.1.3
+ * Versión: 0.1.4.1
  * 
  * Nombre de la Clase: Alcancia
  * Responsabilidad: 

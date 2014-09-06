@@ -1,6 +1,6 @@
 /* Autor: Hecho por Juan David Roa Valencia
  * Fecha de creación: 02/09/14
- * Versión: 0.1.3
+ * Versión: 0.1.4.1
  * 
  * Nombre de la Clase: Alcancia
  * Responsabilidad: 
@@ -61,16 +61,16 @@ void Alcancia::agregar500()
 void Alcancia::mostrarTotal()
 {
         totalDinero = (cant20 * 20) + (cant50 * 50) + (cant100 * 100) + (cant200 * 200) + (cant500 * 500);
-	cout<<"La cantidad total de dinero es:"<<totalDinero<<endl;
+	cout<<"La cantidad total de dinero es:"" " "$ "<<totalDinero<<endl;
 }
 
 void Alcancia::mostrarCantidades()
 {
-	cout<<"La cantidad total de monedas de $ 20 es:"<<cant20<<endl;
-	cout<<"La cantidad total de monedas de $ 50 es:"<<cant50<<endl;
-	cout<<"La cantidad total de monedas de $ 100 es:"<<cant100<<endl;
-	cout<<"La cantidad total de monedas de $ 200 es:"<<cant200<<endl;
-	cout<<"La cantidad total de monedas de $ 500 es:"<<cant500<<endl;
+	cout<<"La cantidad total de monedas de $ 20 es:"" " <<cant20<<endl;
+	cout<<"La cantidad total de monedas de $ 50 es:"" " <<cant50<<endl;
+	cout<<"La cantidad total de monedas de $ 100 es:"" " <<cant100<<endl;
+	cout<<"La cantidad total de monedas de $ 200 es:"" " <<cant200<<endl;
+	cout<<"La cantidad total de monedas de $ 500 es:"" " <<cant500<<endl;
 }
 
 void Alcancia::romperAlcancia()
@@ -82,7 +82,7 @@ void Alcancia::romperAlcancia()
         cant200 = 0;
         cant500 = 0;
 	totalDinero = 0;
-        cout<<"Ha roto su Alcancía :(, La cantidad total de dinero es:"<<totalDinero;
+        cout<<"Ha roto su Alcancía :(, La cantidad total de dinero en la Alcancía es de:"" $"" "<<totalDinero;
 
 }
 
@@ -123,18 +123,18 @@ cant20 = cant20 + cant;
 
 void Alcancia::setCant50(int cant)
 {
-cant50 = cant;
+cant50 = cant50 + cant;
 }
 
 void Alcancia::setCant100(int cant)
 {
-cant100 = cant * cant100;
+cant100 = cant100 + cant;
 }
 void Alcancia::setCant200(int cant)
 {
-cant200 = cant;
+cant200 = cant200 + cant;
 }
 void Alcancia::setCant500(int cant)
 {
-cant500 = cant;
+cant500 = cant500 + cant;
 }
