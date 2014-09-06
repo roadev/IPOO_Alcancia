@@ -9,19 +9,19 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=GNU-Linux-x86
 CND_ARTIFACT_DIR_Debug=dist/Debug/GNU-Linux-x86
-CND_ARTIFACT_NAME_Debug=alcancia
-CND_ARTIFACT_PATH_Debug=dist/Debug/GNU-Linux-x86/alcancia
+CND_ARTIFACT_NAME_Debug=ipoo_alcancia
+CND_ARTIFACT_PATH_Debug=dist/Debug/GNU-Linux-x86/ipoo_alcancia
 CND_PACKAGE_DIR_Debug=dist/Debug/GNU-Linux-x86/package
-CND_PACKAGE_NAME_Debug=alcancia.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/GNU-Linux-x86/package/alcancia.tar
+CND_PACKAGE_NAME_Debug=ipooalcancia.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/GNU-Linux-x86/package/ipooalcancia.tar
 # Release configuration
 CND_PLATFORM_Release=GNU-Linux-x86
 CND_ARTIFACT_DIR_Release=dist/Release/GNU-Linux-x86
-CND_ARTIFACT_NAME_Release=alcancia
-CND_ARTIFACT_PATH_Release=dist/Release/GNU-Linux-x86/alcancia
+CND_ARTIFACT_NAME_Release=ipoo_alcancia
+CND_ARTIFACT_PATH_Release=dist/Release/GNU-Linux-x86/ipoo_alcancia
 CND_PACKAGE_DIR_Release=dist/Release/GNU-Linux-x86/package
-CND_PACKAGE_NAME_Release=alcancia.tar
-CND_PACKAGE_PATH_Release=dist/Release/GNU-Linux-x86/package/alcancia.tar
+CND_PACKAGE_NAME_Release=ipooalcancia.tar
+CND_PACKAGE_PATH_Release=dist/Release/GNU-Linux-x86/package/ipooalcancia.tar
 #
 # include compiler specific variables
 #

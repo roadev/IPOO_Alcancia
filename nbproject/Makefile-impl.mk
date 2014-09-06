@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=alcancia
+PROJECTNAME=IPOO_Alcancia
 
 # Active Configuration
 DEFAULTCONF=Debug
