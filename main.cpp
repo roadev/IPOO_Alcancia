@@ -23,11 +23,15 @@ int main()
 	marranito.agregar200(); // Se agrega una moneda de 200
 	marranito.agregar500(); // Se agrega una moneda de 500
         
-        marranito.setCant20(10);
-        cout<<"La cantidad actual de monedas de $ 20 es:"<<marranito.getCant20()<<endl;
         
+
+        marranito.agregar20(); // Se agrega una moneda de 20
+        
+        marranito.setCant20(10);
+        cout<<"Se introducen: "<<marranito.getCant20()<<" monedas de $ 20"<<endl;
+
         marranito.setCant100(2);
-        cout<<"La cantidad actual de monedas de $ 100 es:"<<marranito.getCant100()<<endl;
+        cout<<"Se introducen: "<<marranito.getCant100()<<" monedas de $ 100"<<endl;
                 
                       
 	marranito.mostrarCantidades ();
