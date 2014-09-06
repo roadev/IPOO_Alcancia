@@ -1,6 +1,6 @@
 /* Autor: Hecho por Juan David Roa Valencia
  * Fecha de creación: 02/09/14
- * Versión:
+ * Versión: 0.1.3
  * 
  * Nombre de la Clase: Alcancia
  * Responsabilidad: 
@@ -66,11 +66,11 @@ void Alcancia::mostrarTotal()
 
 void Alcancia::mostrarCantidades()
 {
-	cout<<"La cantidad total de monedas de 20 es:"<<cant20<<endl;
-	cout<<"La cantidad total de monedas de 50 es:"<<cant50<<endl;
-	cout<<"La cantidad total de monedas de 100 es:"<<cant100<<endl;
-	cout<<"La cantidad total de monedas de 200 es:"<<cant200<<endl;
-	cout<<"La cantidad total de monedas de 500 es:"<<cant500<<endl;
+	cout<<"La cantidad total de monedas de $ 20 es:"<<cant20<<endl;
+	cout<<"La cantidad total de monedas de $ 50 es:"<<cant50<<endl;
+	cout<<"La cantidad total de monedas de $ 100 es:"<<cant100<<endl;
+	cout<<"La cantidad total de monedas de $ 200 es:"<<cant200<<endl;
+	cout<<"La cantidad total de monedas de $ 500 es:"<<cant500<<endl;
 }
 
 void Alcancia::romperAlcancia()
@@ -118,7 +118,7 @@ int Alcancia::getCant500 ()
 void Alcancia::setCant20(int cant)
 {
 //cant20 = cant * cant20;
-cant20 = cant;
+cant20 = cant20 + cant;
 }
 
 void Alcancia::setCant50(int cant)

@@ -1,10 +1,10 @@
 /* Autor: Hecho por Juan David Roa Valencia
  * Fecha de creación: 02/09/14
- * Versión:
+ * Versión: 0.1.3
  * 
- * Nombre de la Clase:
- * Responsabilidad:
- * Colaboración:
+ * Nombre de la Clase: Alcancia
+ * Responsabilidad: 
+ * Colaboración: 
 
  */
 
