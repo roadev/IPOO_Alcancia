@@ -1,10 +1,11 @@
-/* Asignatura: PROGRAMACIÓN ORIENTADA A OBJETOS (IPOO) 750081M
- * Archivo:Alcancia.h
- * Autor: Diana Marcela Cifuentes Potes
- * código: 1332332
- * Verison: 0.1
- * fecha Modificacion 19 de septiembre 
- * ESCUELA DE INGENIERÍA DE SISTEMAS Y COMPUTACIÓN
+/* Autor: Hecho por Juan David Roa Valencia
+ * Fecha de creación: 02/09/14
+ * Versión: 0.57
+ * 
+ * Nombre del archivo: Alcancia.cpp
+ * Responsabilidad: 
+ * Colaboración: 
+
  */
 #include <iostream>
 #include <string>
@@ -28,7 +29,7 @@ public://metodos
     void calcularTotalBtc();
     void calcularCantidadesCop();
     void calcularTotalAlcancia();
-    string estadoAlcancia();
+    void estadoAlcancia();
     void romperAlcancia();
     void setCant20(int cant);
     void setCant50(int cant);
@@ -42,8 +43,11 @@ public://metodos
     int getCant200();
     int getCant500(); 
     double getBitcoin();
-    string getEstadoAlcancia();
     double getTotalAlcancia();
+    string getEstadoAlcancia();
+    
+    
+    
     
 private://atributos de la clase
     int cant20;

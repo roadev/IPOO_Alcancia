@@ -1,10 +1,11 @@
-/* Asignatura: PROGRAMACIÃN ORIENTADA A OBJETOS (IPOO) 750081M
- * Archivo: main.cpp
- * versiÃ³n: 0.1
- * Autor: Diana Marcela Cifuentes Potes
- * CÃ³digo: 1332332
- * fecha modificacion 19 de septiembre
- * ESCUELA DE INGENIERÃA DE SISTEMAS Y COMPUTACIÃN
+/* Autor: Hecho por Juan David Roa Valencia
+ * Fecha de creación: 02/09/14
+ * Versión: 0.57
+ * 
+ * Nombre del archivo: Alcancia.cpp
+ * Responsabilidad: 
+ * Colaboración: 
+
  */
 
 #include "Alcancia.h"
@@ -40,8 +41,9 @@ int main()
         marranito.calcularTotalCop ();
         marranito.calcularTotalBtc();
         marranito.calcularTotalAlcancia();
-        cout << "El total de la Alcancía en Pesos (incluido la cantidad de Bitcoin convertidos "//muestra en pantalla
-                "es de: "<<marranito.getTotalAlcancia()<<" Pesos"<<endl;
+        cout << "El total de la Alcancía en Pesos (incluido la cantidad de Bitcoin convertidos) "//muestra en pantalla
+                <<endl;
+        cout<<"es de: $ "<<marranito.getTotalAlcancia()<<" Pesos"<<endl;
         marranito.romperAlcancia ();
         marranito.estadoAlcancia();
         
