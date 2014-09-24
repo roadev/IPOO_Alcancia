@@ -1,3 +1,3 @@
-build/Debug/GNU-Linux-x86/main.o: main.cpp alcancia.h
+build/Debug/GNU-Linux-x86/main.o: main.cpp Alcancia.h
 
-alcancia.h:
+Alcancia.h:

@@ -12,8 +12,8 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
-      <itemPath>alcancia.cpp</itemPath>
-      <itemPath>alcancia.h</itemPath>
+      <itemPath>Alcancia.cpp</itemPath>
+      <itemPath>Alcancia.h</itemPath>
       <itemPath>main.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
