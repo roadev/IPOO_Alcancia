@@ -1,6 +1,6 @@
 /* Autor: Hecho por Juan David Roa Valencia
  * Fecha de creación: 02/09/14
- * Versión: 0.7
+ * Versión: 0.71
  * 
  * Nombre del archivo: Alcancia.cpp
  * Responsabilidad: 
@@ -59,7 +59,7 @@ void Alcancia::ingresarMarca(string brand){
 
 void Alcancia::calcularTotalCop(){
         totalCop = (cant20 * 20) + (cant50 * 50) + (cant100 * 100) + (cant200 * 200) + (cant500 * 500);
-	cout<<"La cantidad total de dinero en pesos es:"" " "$ "<<totalCop<<endl;
+	cout<<"La cantidad total de dinero en pesos es:"" " "$ "<<totalCop<<" pesos"<<endl;
 }
 
 void Alcancia::calcularCantidadesCop(){
@@ -70,7 +70,7 @@ void Alcancia::calcularCantidadesCop(){
 	cout<<"La cantidad total de monedas de $ 500 es:"" " <<cant500<<endl;
 }
 void Alcancia::calcularTotalBtc(){
-       cout<<"La cantidad total de dinero en BitCoins es:"" " "$ "<<bitcoin<<endl;
+       cout<<"La cantidad total de dinero en BitCoins es:"" "<<bitcoin<<endl;
 }
 
 void Alcancia::calcularTotalAlcancia()

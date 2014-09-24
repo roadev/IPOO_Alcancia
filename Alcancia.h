@@ -1,6 +1,6 @@
 /* Autor: Hecho por Juan David Roa Valencia
  * Fecha de creación: 02/09/14
- * Versión: 0.7
+ * Versión: 0.71
  * 
  * Nombre del archivo: Alcancia.h
  * Responsabilidad: 

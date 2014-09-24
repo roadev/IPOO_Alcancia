@@ -1,6 +1,6 @@
 /* Autor: Hecho por Juan David Roa Valencia
  * Fecha de creación: 02/09/14
- * Versión: 0.7
+ * Versión: 0.71
  * 
  * Nombre del archivo: Alcancia.cpp
  * Responsabilidad: 
@@ -40,15 +40,15 @@ int main()
         cout<<"Se introducen: "<<marranito.getBitcoin()<<" unidades de Bitcoin"<<endl;//muestra en pantalla
 	
         
-        marranito.calcularCantidadesCop ();
-        marranito.calcularTotalCop ();
+        marranito.calcularCantidadesCop();
+        marranito.calcularTotalCop();
         marranito.calcularTotalBtc();
         marranito.calcularTotalAlcancia();
         cout << "El total de la Alcancía en Pesos (incluido la cantidad de Bitcoin convertidos) "//muestra en pantalla
                 <<endl;
         cout<<"es de: $ "<<marranito.getTotalAlcancia()<<" Pesos"<<endl;
         cout<<"El valor del 3 X 1000 para sus ahorros es de: "<<marranito.getTresXmil()<<endl;
-        marranito.romperAlcancia ();
+        marranito.romperAlcancia();
         marranito.estadoAlcancia();
         
                 
