@@ -1,6 +1,6 @@
 /* Autor: Hecho por Juan David Roa Valencia
  * Fecha de creación: 02/09/14
- * Versión: 0.57
+ * Versión: 0.7
  * 
  * Nombre del archivo: Alcancia.cpp
  * Responsabilidad: 
@@ -25,7 +25,7 @@ Alcancia::Alcancia() //construtor, inicializa las variables
 
 Alcancia::~Alcancia()
 {
-	//MÃ©todo destructor
+	//Método destructor
 
 }
 
@@ -52,6 +52,11 @@ void Alcancia::agregar500(){
 void Alcancia::agregarBitCoins(){
          bitcoin++; // Agrega una unidad de Bitcoin, para cifras menores (decimales, usar SET).
 }
+
+void Alcancia::ingresarMarca(string brand){
+    marca = brand;
+}
+
 void Alcancia::calcularTotalCop(){
         totalCop = (cant20 * 20) + (cant50 * 50) + (cant100 * 100) + (cant200 * 200) + (cant500 * 500);
 	cout<<"La cantidad total de dinero en pesos es:"" " "$ "<<totalCop<<endl;
@@ -73,6 +78,10 @@ void Alcancia::calcularTotalAlcancia()
     totalAlcancia = (valorBtcCop*bitcoin) + totalCop ;
 }
 
+void Alcancia::calcular3X1000(){
+    tresXmil = (totalAlcancia*0.003);
+}
+
 void Alcancia::romperAlcancia(){
         cant20 = 0;
         cant50 = 0;
@@ -89,14 +98,13 @@ void Alcancia::romperAlcancia(){
 }
 
 void Alcancia::estadoAlcancia(){
-    while (totalAlcancia = 0){
+    if(totalAlcancia == 0){
         cout <<"La Alcancía está rota, después de almacenar dinero, la suma total es igual a cero."<<endl;
     }
-    if(totalAlcancia != 0){
-        cout <<"La Alcancía no está rota."<<endl;
+    else{
+        cout<<"La Alcancía no está rota"<<endl;
     }
 }
-
 
 /*void Alcancia::estadoAlcancia(){
        if (totalAlcancia = 0){
@@ -138,8 +146,12 @@ double Alcancia::getTotalAlcancia()
     return totalAlcancia;
 }
 
-string Alcancia::getEstadoAlcancia(){
-     
+double Alcancia::getTresXmil(){
+    return tresXmil;
+}
+
+string Alcancia::getMarca(){
+    return marca;
 }
 
 // SET modifica un valor a uno deseado

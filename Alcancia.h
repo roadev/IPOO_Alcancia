@@ -1,8 +1,8 @@
 /* Autor: Hecho por Juan David Roa Valencia
  * Fecha de creación: 02/09/14
- * Versión: 0.57
+ * Versión: 0.7
  * 
- * Nombre del archivo: Alcancia.cpp
+ * Nombre del archivo: Alcancia.h
  * Responsabilidad: 
  * Colaboración: 
 
@@ -25,10 +25,12 @@ public://metodos
     void agregar200();
     void agregar500();
     void agregarBitCoins ();
+    void ingresarMarca(string brand);
     void calcularTotalCop();
     void calcularTotalBtc();
     void calcularCantidadesCop();
     void calcularTotalAlcancia();
+    void calcular3X1000();
     void estadoAlcancia();
     void romperAlcancia();
     void setCant20(int cant);
@@ -44,8 +46,9 @@ public://metodos
     int getCant500(); 
     double getBitcoin();
     double getTotalAlcancia();
+    double getTresXmil();
     string getEstadoAlcancia();
-    
+    string getMarca();
     
     
     
@@ -61,6 +64,8 @@ private://atributos de la clase
     int totalCop;//totalCop es la cantidad total de dinero en pesos colombianos.
     double valorBtcCop;
     double totalAlcancia;
+    double tresXmil;
+    string marca;
 
 };
 
